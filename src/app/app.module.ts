@@ -4,12 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { SuccessAlertComponent } from './assignment#1/success-alert/success-alert.component';
 import { WarningAlertComponent } from './assignment#1/warning-alert/warning-alert.component';
+import { ManualComponent } from './manually-created-component/manual-component/manual-component.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     SuccessAlertComponent,
-    WarningAlertComponent
+    WarningAlertComponent,
+    ManualComponent,
   ],
   imports: [
     BrowserModule
