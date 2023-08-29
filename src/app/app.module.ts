@@ -25,7 +25,7 @@ export class AppModule { }
 //Bootstrap Array's object will tell angular application this is the 'AppComponent' you have to run on first.
 
 //What is appModule?
-//component uses to build different web pages and module uses to bundle different pieces.
+//component uses to build different web pages and module uses to bundle different pieces/packages.
 //AppModule is the brain of the angular application that holds the entire information of the angular application
 //AppModule give information which freature does app have and use.
 
@@ -36,5 +36,5 @@ export class AppModule { }
                     //  as well as which component you recognise in the index.html file.
 
 //As we Know we do not add any new selector in the index.html file therefore we don't touch the boostrap Array.
-//But still, we added a new component to angular and the new componet has to be registered in the @NgModule's ddeclarations array. 
+//But still, we added a new component to angular and the new componet has to be registered in the @NgModule's declarations array. 
 
