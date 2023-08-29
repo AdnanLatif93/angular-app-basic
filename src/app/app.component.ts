@@ -9,6 +9,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-app-basic';
+  hello(){
+    alert('yes')
+  }
 }
 
 //AppComponent is the root component that holds the entire application.
