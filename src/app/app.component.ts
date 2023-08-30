@@ -9,8 +9,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-app-basic';
+  allowNewServer: boolean = false;
   hello(){
     alert('yes')
+  }
+  constructor(){
+    setTimeout(() => {
+      return this.allowNewServer = !this.allowNewServer
+    }, 5000);
   }
 }
 
